@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="xero" name="servo_reset" type="servo_reset.py"/>
+  <node pkg="joy" name="Joy" type="joy_node"/>
+  <node pkg="xero" name="Cntl" type="cntl.py"/>
+  <node pkg="xero" name="Leg" type="leg.py"/>
+</launch>
